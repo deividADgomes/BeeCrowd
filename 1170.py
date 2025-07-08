@@ -3,12 +3,12 @@ qtde = int(input())
 for i in range(qtde):
 
     dias = 0
-    food = int(input())
+    comida = int(input())
 
-    while food>1:
-        metade = food/2
-        food = food-metade
+    while comida>1:
+        metade = comida/2
+        comida = comida-metade
         dias = dias+1
-        #print(food)
+        #print(comida)
     print (str(dias)+ ' dias')    
 
